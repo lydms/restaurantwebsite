@@ -1,0 +1,424 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+html body{
+    
+    font-family: 'athiti',serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background: #fdf7f7;
+    font-weight: 500;
+  
+}
+
+main{
+    max-width:680px;
+    width:100%;
+    margin:0 auto;
+}
+
+.logo{
+    width:120px;
+    display: block;
+    margin:20px auto;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'athiti', serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+
+.fa-star{
+    color: #950000;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin:5px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background: #ebe3db;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li{
+    border: 1px solid #4c4343;
+}
+
+nav ul li a.active {
+    background-color: #950000;
+    color: white; 
+
+}
+
+nav ul li:hover {
+    background-color: #950000;
+}
+
+nav ul li a:hover{
+    color: #fdf7f7;
+}
+
+nav ul li a{
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 25px; 
+    color: #4c4343;
+}
+
+nav li:first-of-type{
+    background: #4c4343;
+}
+
+nav ul li:nth-child(1) a{
+    color: #fdf7f7;
+}
+
+img {
+    max-width: 680px;
+    width:100%;
+}
+
+/*.slider-container {
+   
+    width:100%;
+    position: relative;
+    margin: 30px 0;
+    height: 350px;
+    overflow: hidden;
+    
+    
+}
+.diaporama {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.diaporama label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.diaporama label:hover,.diaporama label:focus {
+    background: #950000;
+}
+.slide-input{
+    opacity: 0;
+}
+.slide-img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}*/
+
+.breakfast-img{
+    display: flex;
+    justify-content: center;
+    margin:30px 0;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'merienda', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.location{
+    margin:30px 0;
+}
+
+p{
+    text-align: justify;
+    margin:0 10px;
+    margin-bottom: 30px;
+}
+
+.menu{
+    max-width:680px;
+    width:100%;
+    height:800px;
+    background: #ebe3db;
+    margin:30px 0;  
+}
+
+.description-menu img{
+    transition: background-color 0.3s ease;
+}
+
+.description-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-menu p {
+    position:absolute;
+    font-size: 30px;
+    border: 4px solid #fdf7f7;
+    height: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    padding: 20px;     
+    opacity:0;
+    transition: opacity 0.3s ease;
+    color:#fdf7f7;
+
+}
+
+.description-menu:hover img{
+    background: rgba(76,67,67,.9);
+    opacity:0.5;
+}
+
+.description-menu:hover p{
+    opacity:1;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'merienda', serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+
+}
+
+.menu span{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed #4c4343;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+button{
+    width:95%;
+    padding:10px;
+    display: block;
+    margin:0 auto;
+    background: #4c4343;
+    color: #fdf7f7;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover{
+    background: #950000;
+}
+
+.fa-utensils{
+    font-size:18px;
+}
+
+
+footer{
+    background-image: url(./images/footer-bg.jpg);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h4{
+    font-family: 'merienda', serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    color: #fdf7f7;
+    border-bottom: 1px dashed #fdf7f7;
+    padding: 10px;
+    margin:20px 0;
+}
+
+.span-footer{
+    font-size: 16px;
+    color: #ebe3db;
+    font-family: 'athiti', serif;
+    display: block;
+}
+
+.contact span:nth-child(5){
+    margin-top: 20px;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-pinterest-p{
+    color: #ebe3db;
+    font-size: 25px;
+    margin:5px;
+    
+}
+
+@media screen and (min-width:780px) and (max-width:1099px) {
+    html body{
+        max-width:1099px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li{
+        border:none;
+        padding: 5px;
+        
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width:1100px){
+   main{
+    max-width:1400px;
+   }
+
+   .breakfast-img{
+    max-width:1400px;
+    width:100%;
+   }
+   .slider-container{
+    margin:0 auto;
+    top:20px;
+   }
+
+   .slide-img{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   }
+
+   .location{
+    width:300px;
+    
+   }
+   .welcome{
+    display: flex;
+    flex-direction: row-reverse;
+    
+   }
+
+   .welcome p{
+    margin-top: 25px;
+   }
+
+   .menu{
+    width:350px;
+    height:550px;
+   }
+
+   .specials-menu{
+    display:flex;
+    justify-content: space-between;
+   }
+
+
+   .description-menu p{
+    font-size: 16px;
+    width:200px;
+    height:100px;
+   }
+
+   .description-menu img{
+    width: 100%;
+   }
+
+
+   .specials-menu{
+    display: flex;
+    flex-direction: row;
+   }
+
+   footer{
+    width:100%;
+   }
+
+   nav{
+    padding-bottom: 150px;
+   }
+
+    nav ul{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top:50px;
+    right:50px;
+    background:none;
+  }
+
+  nav ul li{
+    margin:0 10px;
+    background: #ebe3db;
+    border: none;
+    padding: 5px;
+  }
+
+    .logo-site img{
+        position: absolute;
+        left:70px;
+        top:10px;
+    }
+
+    h1{
+        position:absolute;
+        top:40px;
+        left:180px;
+    }
+    
+    footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+
+  
+
+
+   
+   
+}
+
+
+
+
